@@ -82,7 +82,7 @@ export default function Portfolio() {
       description:
         "Deviso is a powerful SaaS solution built using the MERN stack (MongoDB, Express.js, React, Node.js) to streamline and simplify the management of business operations such as generating quotes (devis), invoices (factures), purchase orders (bons de commande), and delivery slips (bons de livraison). Tailored for businesses of all sizes, Deviso offers a robust and scalable platform for efficient financial and inventory management.",
       techStack: ["React js", "Express js", "Node js", "Mongodb"],
-      liveUrl: "https://deviso.webitagency.reise",
+      liveUrl: "https://deviso.webitagency.com",
       githubUrl: "#",
       featured: true,
       metrics: { users: "500+", uptime: "99.9%", performance: "< 100ms" },
@@ -127,7 +127,7 @@ export default function Portfolio() {
         "Express.js",
         "MongoDB",
       ],
-      liveUrl: "https://mini-solution.webitagency.reise",
+      liveUrl: "https://mini-solution.webitagency.com",
       githubUrl: "#",
       featured: false,
       metrics: { transactions: "10k+", nodes: "500+", gas_efficiency: "60%" },
@@ -225,12 +225,12 @@ export default function Portfolio() {
         "Bootstrap",
       ],
       icon: <Palette className="w-8 h-8" />,
-      color: "from-emerald-500 to-teal-500",
+      color: "from-blue-500 to-indigo-500",
     },
     "Backend Engineering": {
       items: ["Node.js", "Express.js", "nest.js", "mongodb", "PostgreSQL"],
       icon: <Database className="w-8 h-8" />,
-      color: "from-green-500 to-emerald-500",
+      color: "from-blue-600 to-blue-500",
     },
     "IOT and connectivity": {
       items: [
@@ -242,12 +242,12 @@ export default function Portfolio() {
         "Embedded Systems",
       ],
       icon: <Earth className="w-8 h-8" />,
-      color: "from-teal-500 to-cyan-500",
+      color: "from-indigo-500 to-blue-600",
     },
     "Cloud & DevOps": {
       items: ["Nginx", "Docker", "Vps", "CI/CD"],
       icon: <Globe className="w-8 h-8" />,
-      color: "from-cyan-500 to-blue-500",
+      color: "from-blue-600 to-indigo-600",
     },
   };
 
@@ -278,11 +278,11 @@ export default function Portfolio() {
     <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
       {/* Animated Background */}
       <div className="fixed inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-emerald-950/20 to-teal-950/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-blue-950/20 to-indigo-950/20"></div>
         <div
           className="absolute inset-0 opacity-30"
           style={{
-            background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(16, 185, 129, 0.1), transparent 40%)`,
+            background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.1), transparent 40%)`,
           }}
         ></div>
         {/* Animated particles */}
@@ -290,7 +290,7 @@ export default function Portfolio() {
           {[...Array(50)].map((_, i) => (
             <div
               key={i}
-              className="absolute w-1 h-1 bg-emerald-400/20 rounded-full animate-pulse"
+              className="absolute w-1 h-1 bg-blue-400/20 rounded-full animate-pulse"
               style={{
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
@@ -306,7 +306,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/50 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+            <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
               Badreddine Aiz
             </div>
             <div className="hidden md:flex space-x-8">
@@ -315,12 +315,12 @@ export default function Portfolio() {
                   key={section}
                   href={`#${section}`}
                   className={`relative text-slate-300 hover:text-white transition-all duration-300 capitalize ${
-                    activeSection === section ? "text-emerald-400" : ""
+                    activeSection === section ? "text-blue-400" : ""
                   }`}
                 >
                   {section}
                   {activeSection === section && (
-                    <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-full"></div>
+                    <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full"></div>
                   )}
                 </Link>
               ))}
@@ -344,16 +344,16 @@ export default function Portfolio() {
               }`}
             >
               <div className="space-y-6">
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 backdrop-blur-sm">
-                  <div className="w-2 h-2 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-                  <span className="text-emerald-300 text-sm font-medium">
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/20 to-indigo-500/20 border border-blue-500/30 backdrop-blur-sm">
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mr-3 animate-pulse"></div>
+                  <span className="text-blue-300 text-sm font-medium">
                     Mid-Level Software Engineer • Available
                   </span>
                 </div>
 
                 <h1 className="text-6xl lg:text-7xl font-bold leading-tight">
                   <span className="block text-white">Hi, I'm</span>
-                  <span className="block bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">
+                  <span className="block bg-gradient-to-r from-blue-400 via-indigo-400 to-blue-500 bg-clip-text text-transparent animate-gradient">
                     Badreddine Aiz
                   </span>
                 </h1>
@@ -374,15 +374,15 @@ export default function Portfolio() {
 
                 <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
                   I architect and build{" "}
-                  <span className="text-emerald-400 font-semibold">
+                  <span className="text-blue-400 font-semibold">
                     distributed systems
                   </span>{" "}
                   that scale to millions of users. Passionate about{" "}
-                  <span className="text-teal-400 font-semibold">
+                  <span className="text-indigo-400 font-semibold">
                     performance optimization
                   </span>
                   ,
-                  <span className="text-green-400 font-semibold">
+                  <span className="text-blue-500 font-semibold">
                     {" "}
                     clean architecture
                   </span>
@@ -395,10 +395,10 @@ export default function Portfolio() {
                 {achievements.map((achievement, index) => (
                   <div
                     key={index}
-                    className="group p-4 rounded-xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50 backdrop-blur-sm hover:border-emerald-500/50 transition-all duration-300"
+                    className="group p-4 rounded-xl bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300"
                   >
                     <div className="flex flex-col items-center text-center space-y-2">
-                      <div className="text-emerald-400 group-hover:scale-110 transition-transform duration-300">
+                      <div className="text-blue-400 group-hover:scale-110 transition-transform duration-300">
                         {achievement.icon}
                       </div>
                       <div className="text-2xl font-bold text-white">
@@ -416,7 +416,7 @@ export default function Portfolio() {
                 <Link href="mailto:badr.aiz@hotmail.com" target="_blank">
                   <Button
                     size="lg"
-                    className="group bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/25"
+                    className="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25"
                   >
                     <Mail className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
                     Let's Connect
@@ -427,7 +427,7 @@ export default function Portfolio() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-emerald-500 px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 bg-transparent"
+                    className="group border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-blue-500 px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 bg-transparent"
                   >
                     <Download className="w-5 h-5 mr-2 group-hover:bounce transition-transform duration-300" />
                     Download Resume
@@ -445,12 +445,12 @@ export default function Portfolio() {
                   {
                     icon: <Linkedin className="w-6 h-6" />,
                     href: "https://www.linkedin.com/in/badreddine-aiz-939093224",
-                    color: "hover:text-emerald-400",
+                    color: "hover:text-blue-400",
                   },
                   {
                     icon: <Mail className="w-6 h-6" />,
                     href: "mailto:badr.aiz@hotmail.com",
-                    color: "hover:text-teal-400",
+                    color: "hover:text-indigo-400",
                   },
                 ].map((social, index) => (
                   <Link
@@ -473,12 +473,12 @@ export default function Portfolio() {
             >
               <div className="relative w-96 h-96 mx-auto">
                 {/* Animated rings */}
-                <div className="absolute inset-0 rounded-full border border-emerald-500/20 animate-spin-slow"></div>
-                <div className="absolute inset-4 rounded-full border border-teal-500/20 animate-spin-reverse"></div>
-                <div className="absolute inset-8 rounded-full border border-cyan-500/20 animate-spin-slow"></div>
+                <div className="absolute inset-0 rounded-full border border-blue-500/20 animate-spin-slow"></div>
+                <div className="absolute inset-4 rounded-full border border-indigo-500/20 animate-spin-reverse"></div>
+                <div className="absolute inset-8 rounded-full border border-blue-600/20 animate-spin-slow"></div>
 
                 {/* Gradient background */}
-                <div className="absolute inset-12 bg-gradient-to-r from-emerald-500/20 via-teal-500/20 to-cyan-500/20 rounded-full blur-3xl animate-pulse"></div>
+                <div className="absolute inset-12 bg-gradient-to-r from-blue-500/20 via-indigo-500/20 to-blue-600/20 rounded-full blur-3xl animate-pulse"></div>
 
                 {/* Profile image */}
                 <Image
@@ -490,10 +490,10 @@ export default function Portfolio() {
                 />
 
                 {/* Floating tech icons */}
-                <div className="absolute top-0 right-0 w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center animate-float">
+                <div className="absolute top-0 right-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center animate-float">
                   <Code2 className="w-6 h-6 text-white" />
                 </div>
-                <div className="absolute bottom-0 left-0 w-12 h-12 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-full flex items-center justify-center animate-float-delayed">
+                <div className="absolute bottom-0 left-0 w-12 h-12 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-full flex items-center justify-center animate-float-delayed">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
               </div>
@@ -507,7 +507,7 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-7xl relative z-10">
           <div className="grid lg:grid-cols-2 gap-20 items-center">
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-3xl blur-3xl group-hover:blur-2xl transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-3xl blur-3xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative">
                 <Image
                   src="/about.svg?height=500&width=500"
@@ -516,7 +516,7 @@ export default function Portfolio() {
                   height={500}
                   className="relative z-10 rounded-3xl object-cover shadow-2xl border border-slate-700/50 group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center shadow-2xl">
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center shadow-2xl">
                   <Award className="w-12 h-12 text-white" />
                 </div>
               </div>
@@ -524,33 +524,31 @@ export default function Portfolio() {
 
             <div className="space-y-8">
               <div className="space-y-4">
-                <div className="inline-block px-4 py-2 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-full border border-emerald-500/30">
-                  <span className="text-emerald-300 text-sm font-medium">
+                <div className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full border border-blue-500/30">
+                  <span className="text-blue-300 text-sm font-medium">
                     About Me
                   </span>
                 </div>
                 <h2 className="text-5xl font-bold text-white leading-tight">
                   Building the{" "}
-                  <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
                     Future
                   </span>{" "}
                   of Software
                 </h2>
-                <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full"></div>
+                <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
               </div>
 
               <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
                 <p>
                   With{" "}
-                  <span className="text-emerald-400 font-semibold">
-                    4+ years
-                  </span>{" "}
+                  <span className="text-blue-400 font-semibold">4+ years</span>{" "}
                   of experience developing systems, I've developed over{" "}
-                  <span className="text-teal-400 font-semibold">
+                  <span className="text-indigo-400 font-semibold">
                     + 20 production-grade applications
                   </span>{" "}
                   and
-                  <span className="text-green-400 font-semibold">
+                  <span className="text-blue-500 font-semibold">
                     {" "}
                     highly scalable systems
                   </span>
@@ -559,19 +557,19 @@ export default function Portfolio() {
                 </p>
                 <p>
                   I specialize in{" "}
-                  <span className="text-emerald-400 font-semibold">
+                  <span className="text-blue-400 font-semibold">
                     distributed systems
                   </span>
                   , focusing on{" "}
-                  <span className="text-teal-400 font-semibold">
+                  <span className="text-indigo-400 font-semibold">
                     performance optimization
                   </span>
                   ,{" "}
-                  <span className="text-green-400 font-semibold">
+                  <span className="text-blue-500 font-semibold">
                     clean architecture
                   </span>
                   , and{" "}
-                  <span className="text-emerald-400 font-semibold">
+                  <span className="text-blue-400 font-semibold">
                     system reliability
                   </span>
                   . My goal is to create software that not only meets functional
@@ -580,15 +578,15 @@ export default function Portfolio() {
                 </p>
                 <p>
                   Beyond coding, I'm passionate about{" "}
-                  <span className="text-emerald-400 font-semibold">
+                  <span className="text-blue-400 font-semibold">
                     mentoring developers
                   </span>
                   , contributing to{" "}
-                  <span className="text-teal-400 font-semibold">
+                  <span className="text-indigo-400 font-semibold">
                     open source
                   </span>
                   , and speaking at
-                  <span className="text-green-400 font-semibold">
+                  <span className="text-blue-500 font-semibold">
                     {" "}
                     international conferences
                   </span>
@@ -599,11 +597,11 @@ export default function Portfolio() {
 
               <div className="flex items-center space-x-6 text-slate-400">
                 <div className="flex items-center space-x-2">
-                  <MapPin className="w-5 h-5 text-emerald-400" />
+                  <MapPin className="w-5 h-5 text-blue-400" />
                   <span>Morocco Sale</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Globe className="w-5 h-5 text-teal-400" />
+                  <Globe className="w-5 h-5 text-indigo-400" />
                   <span>Remote Friendly</span>
                 </div>
               </div>
@@ -616,14 +614,14 @@ export default function Portfolio() {
       <section id="projects" className="relative py-32 px-6">
         <div className="container mx-auto max-w-7xl relative z-10">
           <div className="text-center space-y-6 mb-20">
-            <div className="inline-block px-4 py-2 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-full border border-emerald-500/30">
-              <span className="text-emerald-300 text-sm font-medium">
+            <div className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full border border-blue-500/30">
+              <span className="text-blue-300 text-sm font-medium">
                 Featured Work
               </span>
             </div>
             <h2 className="text-5xl font-bold text-white leading-tight">
               Enterprise-Scale{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
                 Solutions
               </span>
             </h2>
@@ -637,11 +635,11 @@ export default function Portfolio() {
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className={`group relative overflow-hidden bg-gradient-to-br from-green-950/50  to-slate-900/50 border border-slate-700/50 backdrop-blur-sm hover:border-emerald-500/50 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-emerald-500/10 ${
+                className={`group relative overflow-hidden bg-gradient-to-br from-blue-950/50  to-slate-900/50 border border-slate-700/50 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10 ${
                   project.featured ? "lg:col-span-1" : ""
                 }`}
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 to-teal-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                 <div
                   className={`grid ${
@@ -675,7 +673,7 @@ export default function Portfolio() {
                         <Link href={project.liveUrl} target="_blank">
                           <Button
                             size="sm"
-                            className="bg-emerald-600 hover:bg-emerald-500 text-white transition-all duration-300 hover:scale-105"
+                            className="bg-blue-600 hover:bg-blue-500 text-white transition-all duration-300 hover:scale-105"
                           >
                             <ExternalLink className="w-4 h-4 mr-2" />
                             Live Demo
@@ -684,7 +682,7 @@ export default function Portfolio() {
                         <Button
                           size="sm"
                           variant="outline"
-                          className="border-slate-400 text-slate-200 hover:bg-slate-800 hover:border-emerald-500 transition-all duration-300 hover:scale-105 bg-slate-900/80"
+                          className="border-slate-400 text-slate-200 hover:bg-slate-800 hover:border-blue-500 transition-all duration-300 hover:scale-105 bg-slate-900/80"
                         >
                           <Github className="w-4 h-4 mr-2" />
                           Code
@@ -696,7 +694,7 @@ export default function Portfolio() {
                   {/* Project Content */}
                   <div className="p-6 flex flex-col justify-between">
                     <div className="space-y-4">
-                      <CardTitle className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors duration-300">
+                      <CardTitle className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
                         {project.title}
                       </CardTitle>
                       <CardDescription className="text-slate-300 leading-relaxed text-base">
@@ -709,9 +707,9 @@ export default function Portfolio() {
                           ([key, value], metricIndex) => (
                             <div
                               key={metricIndex}
-                              className="text-center p-3 rounded-lg bg-slate-800/50 border border-slate-700/50 hover:border-emerald-500/30 transition-colors duration-300"
+                              className="text-center p-3 rounded-lg bg-slate-800/50 border border-slate-700/50 hover:border-blue-500/30 transition-colors duration-300"
                             >
-                              <div className="text-lg font-bold text-emerald-400">
+                              <div className="text-lg font-bold text-blue-400">
                                 {value}
                               </div>
                               <div className="text-xs text-slate-400 capitalize">
@@ -730,7 +728,7 @@ export default function Portfolio() {
                           <Badge
                             key={techIndex}
                             variant="outline"
-                            className="border-slate-600 text-slate-300 hover:border-emerald-500 hover:text-emerald-400 transition-colors duration-300"
+                            className="border-slate-600 text-slate-300 hover:border-blue-500 hover:text-blue-400 transition-colors duration-300"
                           >
                             {tech}
                           </Badge>
@@ -749,14 +747,14 @@ export default function Portfolio() {
       <section id="skills" className="relative py-32 px-6">
         <div className="container mx-auto max-w-7xl relative z-10">
           <div className="text-center space-y-6 mb-20">
-            <div className="inline-block px-4 py-2 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-full border border-emerald-500/30">
-              <span className="text-emerald-300 text-sm font-medium">
+            <div className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full border border-blue-500/30">
+              <span className="text-blue-300 text-sm font-medium">
                 Technical Expertise
               </span>
             </div>
             <h2 className="text-5xl font-bold text-white leading-tight">
               Senior-Level{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
                 Mastery
               </span>
             </h2>
@@ -770,7 +768,7 @@ export default function Portfolio() {
             {Object.entries(skills).map(([category, data], index) => (
               <Card
                 key={index}
-                className="group relative overflow-hidden bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50 backdrop-blur-sm hover:border-emerald-500/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl"
+                className="group relative overflow-hidden bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl"
               >
                 <div
                   className={`absolute inset-0 bg-gradient-to-r ${data.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}
@@ -782,7 +780,7 @@ export default function Portfolio() {
                   >
                     <div className="text-white">{data.icon}</div>
                   </div>
-                  <CardTitle className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors duration-300">
+                  <CardTitle className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
                     {category}
                   </CardTitle>
                 </CardHeader>
@@ -793,7 +791,7 @@ export default function Portfolio() {
                       <Badge
                         key={skillIndex}
                         variant="outline"
-                        className="border-slate-600 text-slate-300 hover:border-emerald-500 hover:text-emerald-400 transition-all duration-300 hover:scale-105"
+                        className="border-slate-600 text-slate-300 hover:border-blue-500 hover:text-blue-400 transition-all duration-300 hover:scale-105"
                       >
                         {skill}
                       </Badge>
@@ -810,14 +808,14 @@ export default function Portfolio() {
       <section id="contact" className="relative py-32 px-6">
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center space-y-6 mb-20">
-            <div className="inline-block px-4 py-2 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-full border border-emerald-500/30">
-              <span className="text-emerald-300 text-sm font-medium">
+            <div className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full border border-blue-500/30">
+              <span className="text-blue-300 text-sm font-medium">
                 Let's Connect
               </span>
             </div>
             <h2 className="text-5xl font-bold text-white leading-tight">
               Ready to Build{" "}
-              <span className="bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
                 Something Amazing?
               </span>
             </h2>
@@ -836,13 +834,13 @@ export default function Portfolio() {
                     icon: <Mail className="w-6 h-6" />,
                     title: "Email",
                     value: "badr.aiz@hotmail.com",
-                    color: "from-emerald-500 to-teal-500",
+                    color: "from-blue-500 to-indigo-500",
                   },
                   {
                     icon: <Phone className="w-6 h-6" />,
                     title: "Phone",
                     value: "+212 7.71.85.08.24",
-                    color: "from-green-500 to-emerald-500",
+                    color: "from-blue-600 to-blue-500",
                   },
                 ].map((contact, index) => (
                   <div
@@ -878,12 +876,12 @@ export default function Portfolio() {
                     {
                       icon: <Linkedin className="w-6 h-6" />,
                       href: "https://www.linkedin.com/in/badreddine-aiz-939093224",
-                      color: "hover:bg-emerald-600",
+                      color: "hover:bg-blue-600",
                     },
                     {
                       icon: <Mail className="w-6 h-6" />,
                       href: "mailto:badr.aiz@hotmail.com",
-                      color: "hover:bg-teal-600",
+                      color: "hover:bg-indigo-600",
                     },
                   ].map((social, index) => (
                     <Link
@@ -917,7 +915,7 @@ export default function Portfolio() {
                       </label>
                       <Input
                         placeholder="Your name"
-                        className="bg-slate-800/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-emerald-500 focus:ring-emerald-500/20"
+                        className="bg-slate-800/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-blue-500 focus:ring-blue-500/20"
                       />
                     </div>
                     <div className="space-y-2">
@@ -928,7 +926,7 @@ export default function Portfolio() {
                         type="email"
                         name="email"
                         placeholder="your.email@example.com"
-                        className="bg-slate-800/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-emerald-500 focus:ring-emerald-500/20"
+                        className="bg-slate-800/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-blue-500 focus:ring-blue-500/20"
                       />
                     </div>
                   </div>
@@ -940,12 +938,12 @@ export default function Portfolio() {
                       placeholder="Tell me about your project or what you'd like to discuss..."
                       rows={5}
                       name="message"
-                      className="bg-slate-800/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-emerald-500 focus:ring-emerald-500/20 resize-none"
+                      className="bg-slate-800/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-blue-500 focus:ring-blue-500/20 resize-none"
                     />
                   </div>
                   <Button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/25 group"
+                    className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 group"
                   >
                     Send Message
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
@@ -962,7 +960,7 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-7xl relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
             <div className="text-center md:text-left">
-              <div className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-2">
+              <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-2">
                 Badreddine Aiz
               </div>
               <p className="text-slate-400">Principal Software Engineer</p>
